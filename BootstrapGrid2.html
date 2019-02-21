@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Grid Test Harness 2</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    div{
+      margin-top: 20px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+
+<section class="container">
+  <section class="row">
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="col bg-success">Equal</div>
+    <div class="w-100"></div>
+  </section>
+  <section class="row">
+    <div class="col bg-info">Equal</div>
+    <div class="col bg-info">Equal</div>
+    <div class="w-100"></div>
+    <div class="col bg-info">Equal</div>
+    <div class="col bg-info">Equal</div>
+    <div class="w-100"></div>
+  </section>
+  <section class="row">
+    <div class="col bg-primary">Auto1</div>
+    <div class="col-8 bg-primary">Auto2</div>
+    <div class="col-2 bg-primary">Auto3</div>
+    <div class="w-100"></div>
+  </section>
+  <section class="row">
+    <div class="col-sm bg-warning">Auto</div>
+    <div class="col-sm bg-warning">Auto</div>
+    <div class="col-sm bg-warning">Auto</div>
+    <div class="w-100"></div>
+  </section>
+  <section class="row">
+    <div class="col-sm order-3 bg-secondary">Auto - order 3</div>
+    <div class="col-sm order-1 bg-secondary">Auto - order 1</div>
+    <div class="col-sm order-2 bg-secondary">Auto - order 2</div>
+  </section>
+  <section class="row">
+    <div class="w-100"></div>
+  </section>
+
+
+</section>
+
+<section class="container">
+  <section class="row">
+    <div class="col bg-warning">First
+      <section class="row">
+        <div class="col bg-info">Second</div>
+        <div class="col bg-success">Third</div>
+      </section>
+    </div>
+  </section>
+  <div class="w-100"></div>
+  <section class="row">
+    <div class="col-sm-6 col-md-7 col-lg-8 col-xl-10 bg-warning">
+      <p>SM: 576px<br>MD: 768px<br>LG: 992px<br>LG: 992px<br>XL: 1200px</p>
+    </div>
+  </section>
+  <section class="row">
+    <div class="col-6 bg-info">1</div>
+    <div class="col-6 bg-secondary">2</div>
+  </section>
+  <section class="row">
+    <div class="col-4 bg-info">1</div>
+    <div class="col-4 bg-secondary">2</div>
+    <div class="col-4 bg-primary">3</div>
+  </section>
+  <section class="row">
+    <div class="col-3 bg-info">1</div>
+    <div class="col-3 bg-secondary">2</div>
+    <div class="col-3 bg-primary">3</div>
+    <div class="col-3 bg-danger">4</div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="w-100"></div>
+</section>
+</body>
+</html>
