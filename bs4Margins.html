@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Margins and Padding</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    section {
+      height: 100px;
+      text-align: center;
+    }
+    section.sm {
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+
+<section class="row sm">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row sm">
+  <div class="col bg-info">4</div>
+  <div class="col bg-primary text-light text-justify">
+    Lorem ipsum
+  </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row sm">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+<hr>
+
+
+<section class="row">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row">
+  <div class="col bg-info">4</div>
+    <div class="col bg-primary text-light text-justify mt-4">
+      (mt-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
+      Lorem
+    </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+<hr>
+
+
+<section class="row">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row">
+  <div class="col bg-info">4</div>
+  <div class="col bg-primary text-light text-justify mb-4">
+    (mb-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
+    Lorem
+  </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+
+
+<hr>
+<section class="row">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row">
+  <div class="col bg-info">4</div>
+  <div class="col bg-primary text-light text-justify m-4">
+    (m-4) Lorem ipsum dolor sit amet
+    Lorem
+  </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+
+
+<hr>
+<section class="row">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row">
+  <div class="col bg-info">4</div>
+  <div class="col bg-primary text-light text-justify pt-4">
+    (pt-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
+    Lorem
+  </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+
+
+<hr>
+<section class="row">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row">
+  <div class="col bg-info">4</div>
+  <div class="col bg-primary text-light text-justify pb-4">
+    (pb-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
+    Lorem
+  </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+
+<hr>
+<section class="row">
+  <div class="col bg-transparent">1</div>
+  <div class="col bg-info">2</div>
+  <div class="col bg-transparent">3</div>
+</section>
+<section class="row">
+  <div class="col bg-info">4</div>
+  <div class="col bg-primary text-light text-justify p-4">
+    (p-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
+    Lorem
+  </div>
+  <div class="col bg-info">6</div>
+</section>
+<section class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</section>
+
+<hr>
+<section>
+  <span class="px-2 bg-warning">Span Inline Element</span>
+  <span class="px-2 bg-secondary d-block text-light">Span Inline Element with d-block</span>
+</section>
+<section>
+  <div class="bg-success">Div Block Element</div>
+  <div class="bg-info d-inline">Div Block Element with d-inline</div>
+</section>
+<hr>
+
+<div class="m-5">
+  Padding and border sizes are a multiple of the base SASS map variable $spacer by:
+
+  0   1   2   3   4   5
+
+  0   .25 .5  1   1.5 3
+
+  The default is the same as the default font.
+
+
+  abbreviations:
+
+  t       margin-top or padding-top
+  b       margin-bottom or padding-bottom
+  l       margin-left or padding-left
+  r       margin-right or padding-right
+  x       left and right (x-axis)
+  y       top and bottom (y-axis)
+  blank   all around
+</div>
+<br>
+<br>
+<br>
+<div id="nav-placeholder"></div>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+</body>
+
+<script>
+    $('#nav-placeholder').load('nav.html');
+</script>
+
+</html>

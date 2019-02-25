@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bootstrap Grid test harness</title>
+  <title>Bootstrap Containers</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <style>
     .myDiv{
       width: 100%;
-      height: 60px;
-      background: url("img/cathead2.png") no-repeat center center;
+      height: 100px;
+      background: url("img/img12.jpg") no-repeat center center;
+      background-size: cover;
     }
     .myRow{
       width:100%;
@@ -47,69 +48,49 @@
 </head>
 <body>
 
-<div class="myDiv bg-primary text-light">
-  No container
-</div>
-<hr>
-<div class="container">
-  <div class="myDiv bg-primary text-light">
-    With container
+  <div class="myDiv bg-primary text-dark pl-2">
+    No container
   </div>
-</div>
-<hr>
-<div class="container-fluid">
-  <div class="myDiv bg-primary text-light">
-    With container fluid
-  </div>
-</div>
-<hr>
-<div class="container">
-  <div class="row">
-    <div class="myRow col bg-success text-light">
-      With container - four col
+  <hr>
+  <div class="container">
+    <div class="myDiv bg-primary text-dark pl-2">
+      With container
     </div>
-    <div class="myRow col bg-warning"></div>
-    <div class="myRow col bg-danger"></div>
-    <div class="myRow col bg-dark"></div>
   </div>
-</div>
-<hr>
-<div class="container">
-  <div class="row">
-    <div class="myRow col bg-info text-light">
-      With container - two col
-    </div>
-    <div class="myRow col bg-success"></div>
-  </div>
-</div>
-<hr>
-<div class="container">
-  <div class="row">
-    <div class="myRow col bg-primary text-light">Primary</div>
-    <div class="myRow col bg-secondary text-light">Secondary</div>
-    <div class="myRow col bg-success text-light">Success</div>
-    <div class="myRow col bg-info text-light">Info</div>
-    <div class="myRow col bg-warning text-light">Warning</div>
-    <div class="myRow col bg-danger text-light">Danger</div>
-    <div class="myRow col bg-dark text-light">Dark</div>
-    <div class="myRow col bg-light text-dark">Light</div>
-    <div class="myRow col bg-white text-dark">White</div>
-    <div class="myRow col bg-transparent text-dark">Transparent</div>
-  </div>
-</div>
-<hr>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark"> <!-- fixed-bottom -->
+  <hr>
   <div class="container-fluid">
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav ml-0">
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bs4.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bs4Colors.html">Colors</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bs4Containers.html">Containers</a></li>
-        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="bs4Breakpoints.html">Breakpoints</a></li>
-      </ul>
+    <div class="myDiv bg-primary text-dark pl-2">
+      With container fluid
     </div>
   </div>
-</nav>
-
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="myRow col bg-success text-light">
+        Container with row and four cols
+      </div>
+      <div class="myRow col bg-warning"></div>
+      <div class="myRow col bg-danger"></div>
+      <div class="myRow col bg-dark"></div>
+    </div>
+  </div>
+  <hr>
+  <div class="container mb-6">
+    <div class="row">
+      <div class="myRow col bg-info text-light">
+        Container with row and two cols
+      </div>
+      <div class="myRow col bg-success"></div>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <div id="nav-placeholder"></div>
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
 </body>
+
+<script>
+    $('#nav-placeholder').load('nav.html');
+</script>
+
 </html>

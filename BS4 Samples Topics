@@ -1,0 +1,43 @@
+1. Responsive Layout
+    x background colors
+    x containers and rows
+    x media breakpoints
+    x grid system
+    x alignment and offsets
+    x padding, display, and margins
+    x flex box
+2. Navigation
+    - navbar
+    - aria and data- definitions
+    - navbar with dropdown
+    - navbar colors
+    - navbar with search box
+    - breadcrumbs
+    - pagination
+    - animated scroll
+3. Typography
+    - headlines
+    - text colors
+    - paragraphs and blockquotes
+    - inline tags
+    - lists
+    - list groups
+    - responsive floats
+    - fixed elements and justified type
+4. Buttons
+
+5. Images, Tables and Cards
+
+6. Forms
+
+7. Other Components
+    - Jumbotron
+    - carousels
+    - collapse
+    - accordian
+8. Javascript and Bootstrap
+    - tooltips
+    - modal
+    - popovers
+    - scrollspy
+    - events

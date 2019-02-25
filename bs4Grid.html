@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Grid</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    .bordr {
+      margin-bottom: 16px;
+      border: 0.5px solid black;
+    }
+  </style>
+</head>
+<body>
+  <section class="container">
+    <section class="row">
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;1</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;2</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;3</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;4</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;5</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;6</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;7</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;8</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;9</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;10</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;11</div>
+      <div class="col bordr bg-primary text-white-50">Col&nbsp;12</div>
+      <div class="w-100"></div>
+    </section>
+    <section class="row">
+      <div class="col bordr bg-secondary text-white-50">Col&nbsp;1</div>
+      <div class="col bordr bg-secondary text-white-50">Col&nbsp;2</div>
+      <div class="w-100"></div>
+      <div class="col bordr bg-secondary text-white-50">Col&nbsp;3 (separated by w-100)</div>
+      <div class="col bordr bg-secondary text-white-50">Col&nbsp;4</div>
+      <div class="w-100"></div>
+    </section>
+    <section class="row">
+      <div class="col-2 bordr bg-success text-black-50">Class col-2</div>
+      <div class="col-6 bordr bg-success text-black-50">Class col-6</div>
+      <div class="col bordr bg-success text-black-50">Class col (auto sizes to 4)</div>
+    </section>
+    <section class="row">
+      <div class="col-sm bordr bg-info">Class col-sm</div>
+      <div class="col-sm bordr bg-info">Auto stacks cols</div>
+      <div class="col-sm bordr bg-info">For sm breakpoint</div>
+    </section>
+    <section class="row">
+      <div class="col-sm order-3 bordr bg-warning">Class order-3</div>
+      <div class="col-sm order-1 bordr bg-warning">Class order-1</div>
+      <div class="col-sm order-2 bordr bg-warning">Class order-2</div>
+    </section>
+  </section>
+
+  <section class="container">
+    <section class="row bordr">
+      <div class="col bg-warning">First (Second and Third are nested)
+        <section class="row">
+          <div class="col bg-info">Second</div>
+          <div class="col bg-success">Third</div>
+        </section>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col-6 bg-info">1 (two col layout)</div>
+      <div class="col-6 bg-secondary">2</div>
+    </section>
+    <section class="row">
+      <div class="col-4 bg-info">1 (three col layout)</div>
+      <div class="col-4 bg-secondary">2</div>
+      <div class="col-4 bg-primary">3</div>
+    </section>
+    <section class="row">
+      <div class="col-3 bg-info">1 (four col layout)</div>
+      <div class="col-3 bg-secondary">2</div>
+      <div class="col-3 bg-primary">3</div>
+      <div class="col-3 bg-danger">4</div>
+    </section>
+  </section>
+  <br>
+  <div id="nav-placeholder"></div>
+  <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+</body>
+
+<script>
+  $('#nav-placeholder').load('nav.html');
+</script>
+
+</html>

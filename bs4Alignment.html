@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Alignment and Offsets</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    section {
+      color: white;
+      height: 80px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <section class="row bg-warning align-items-start">
+    <div class="col-6 px-2 bg-secondary">align-items-start</div>
+    <div class="col bg-info">Col 2</div>
+    <div class="col bg-success">Col 3</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row bg-warning align-items-center">
+    <div class="col-6 px-2 bg-secondary">align-items-center</div>
+    <div class="col bg-info">Col 2</div>
+    <div class="col bg-success">Col 3</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row bg-warning align-items-end">
+    <div class="col-6 px-2 bg-secondary">align-items-end</div>
+    <div class="col bg-info">Col 2</div>
+    <div class="col bg-success">Col 3</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning">
+    <div class="col bg-secondary align-self-start">align-self-start</div>
+    <div class="col bg-info">Column 2</div>
+    <div class="col bg-success">Column 3</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning">
+    <div class="col bg-secondary align-self-start">align-self-start</div>
+    <div class="col bg-info align-self-center">align-self-center</div>
+    <div class="col bg-success">Column 3</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning">
+    <div class="col bg-secondary align-self-start">align-self-start</div>
+    <div class="col bg-info align-self-center">align-self-center</div>
+    <div class="col bg-success align-self-end">align-self-end</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning justify-content-start">
+    <div class="col-4 bg-secondary">justify-content-start</div>
+    <div class="col-4 bg-info">Column 2</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning justify-content-center">
+    <div class="col-4 bg-secondary">justify-content-center</div>
+    <div class="col-4 bg-info">Column 2</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning justify-content-end">
+    <div class="col-4 bg-secondary">justify-content-end</div>
+    <div class="col-4 bg-info">Column 2</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning justify-content-around">
+    <div class="col-4 bg-secondary">justify-content-around</div>
+    <div class="col-4 bg-info">Column 2</div>
+  </section>
+</div>
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning justify-content-between">
+    <div class="col-4 bg-secondary">justify-content-between</div>
+    <div class="col-4 bg-info">Column 2</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row">
+    <div class="col-4 bg-secondary">Column 1: col-4</div>
+    <div class="col-4 bg-info offset-4">Column 2: col-4, offset-4</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row">
+    <div class="col-3 bg-secondary">Column 1: col-3</div>
+    <div class="col-3 bg-info offset-md-3">Column 2: col-3, offset-md-3</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row">
+    <div class="col-3 bg-secondary offset-md-1">Column 1: col-3, offset-md-1</div>
+    <div class="col-3 bg-info offset-md-4">Column 2: col-3, offset-md-4</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row">
+    <div class="col-3 bg-secondary ml-auto">Column 1: col-3, ml-auto</div>
+    <div class="col-3 bg-info">Column 2: col-3</div>
+  </section>
+</div>
+<hr>
+<div class="container">
+  <section class="row">
+    <div class="col-3 bg-secondary mr-auto">Column 1: col-3, mr-auto</div>
+    <div class="col-3 bg-info">Column 2: col-3</div>
+  </section>
+</div>
+<hr>
+
+
+
+
+
+<hr>
+<div class="container bg-warning">
+  <section class="row bg-warning justify-content-center">
+    <div class="col-4 bg-secondary">justify-content-center</div>
+    <div class="col-4 bg-info">Column 2</div>
+  </section>
+</div>
+
+
+<hr>
+<div class="row">
+  <div class="col bg-transparent">7</div>
+  <div class="col bg-info">8</div>
+  <div class="col bg-transparent">9</div>
+</div>
+
+<br>
+<br>
+<br>
+<div id="nav-placeholder"></div>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+</body>
+
+<script>
+    $('#nav-placeholder').load('nav.html');
+</script>
+
+</html>
