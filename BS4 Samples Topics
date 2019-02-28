@@ -7,34 +7,56 @@
     x padding, display, and margins
     x flex box
 2. Navigation
-    - navbar
-    - aria and data- definitions
-    - navbar with dropdown
-    - navbar colors
+    x navbar
+    x aria and data- definitions
+    x navbar with dropdown
+    x navbar colors
     - navbar with search box
     - breadcrumbs
     - pagination
     - animated scroll
 3. Typography
     - headlines
-    - text colors
+    x text colors
     - paragraphs and blockquotes
     - inline tags
-    - lists
-    - list groups
-    - responsive floats
+    x lists
+    x list groups
+    x responsive floats
     - fixed elements and justified type
 4. Buttons
-
+    x buttons with color
+    x outlined buttons
+    x make buttons with other tages
+    x button groups
+    x button groups with drop down menus
+    x radio and checkbox buttons
+    x alerts
+    x badges
 5. Images, Tables and Cards
-
+    - images
+    - image figures
+    x font awesome
+    x cards
+    x cards with colors and shadows
+    - card decks and groups
+    - card columns
+    - tables
+    - borders
+    - media objects
 6. Forms
-
+    x form styling
+    x check form classes
+    x inline forms
+    x multi-column forms
+    x validation classes
+    x input groups
+    x radios, checkboxes and select menus
 7. Other Components
-    - Jumbotron
-    - carousels
-    - collapse
-    - accordian
+    x Jumbotron
+    x carousels
+    x collapse
+    x accordian
 8. Javascript and Bootstrap
     - tooltips
     - modal
