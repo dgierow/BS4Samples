@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Lists</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+  <h6 class="bg-dark text-white-50 p-2">List with list-group and list-group-items</h6>
+  <ul class="list-group">
+    <li class="list-group-item">Alice</li>
+    <li class="list-group-item">Queen of Hearts</li>
+    <li class="list-group-item">Cheshire Cat</li>
+    <li class="list-group-item">Tweedle Dee</li>
+  </ul>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">List with list-group and list-group-item-action (hover)</h6>
+  <ul class="list-group">
+    <li class="list-group-item list-group-item-action">Tweedle Dum</li>
+    <li class="list-group-item list-group-item-action">Mad Hatter</li>
+    <li class="list-group-item list-group-item-action">White Rabbit</li>
+    <li class="list-group-item list-group-item-action">March Hare</li>
+  </ul>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">List with list-group and list-group-item-primary, etc.</h6>
+  <ul class="list-group">
+    <li class="list-group-item">Alice</li>
+    <li class="list-group-item list-group-item-primary">Queen of Hearts</li>
+    <li class="list-group-item list-group-item-secondary">Cheshire Cat</li>
+    <li class="list-group-item list-group-item-success">Tweedle Dee</li>
+    <li class="list-group-item list-group-item-info">Tweedle Dum</li>
+    <li class="list-group-item list-group-item-warning">Mad Hatter</li>
+    <li class="list-group-item list-group-item-danger">White Rabbit</li>
+    <li class="list-group-item list-group-item-light">March Hare</li>
+    <li class="list-group-item list-group-item-dark">Caterpillar</li>
+  </ul>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">List with list-group, list-group-flush and badge</h6>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item d-flex justify-content-between align-items-center">Alice <span class="badge badge-primary">40</span></li>
+    <li class="list-group-item">Queen of Hearts</li>
+    <li class="list-group-item">Cheshire Cat</li>
+    <li class="list-group-item">Tweedle Dee</li>
+  </ul>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">List with list-unstyled</h6>
+  <ul class="list-unstyled">
+    <li>Alice</li>
+    <li>Queen of Hearts</li>
+    <li>Cheshire Cat</li>
+    <li>Tweedle Dee</li>
+    <li>Tweedle Dum</li>
+    <li>Mad Hatter</li>
+    <li>White Rabbit</li>
+    <li>March Hare</li>
+  </ul>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">List with list-inline and list-inline-item</h6>
+  <ul class="list-inline">
+    <li class="list-inline-item">Alice</li>
+    <li class="list-inline-item">Queen of Hearts</li>
+    <li class="list-inline-item">Cheshire Cat</li>
+    <li class="list-inline-item">Tweedle Dee</li>
+    <li class="list-inline-item">Tweedle Dum</li>
+    <li class="list-inline-item">Mad Hatter</li>
+    <li class="list-inline-item">White Rabbit</li>
+    <li class="list-inline-item">March Hare</li>
+  </ul>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">Description list with embedded list</h6>
+  <dl class="row">
+    <dt class="col-sm-3">Alice</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3">Dinah</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3">Mary Ann</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3 text-truncate">The old crab with its daughter and several birds</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3">Tea Party Goers</dt>
+    <dd class="col-sm-9">
+      <dl class="row">
+        <dt class="col-sm-4">The March Hare</dt>
+        <dd class="col-sm-8"><span class="sampleText"></span></dd>
+        <dt class="col-sm-4">Mad Hatter</dt>
+        <dd class="col-sm-8"><span class="sampleText"></span></dd>
+      </dl>
+    </dd>
+  </dl>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">Embedded list for small screens</h6>
+  <dl class="row">
+    <dt class="col-sm-3">Alice</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3">Dinah</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3">Mary Ann</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3 text-truncate">The old crab with its daughter and several birds</dt>
+    <dd class="col-sm-9"><span class="sampleText"></span></dd>
+    <dt class="col-sm-3">Tea Party Goers</dt>
+    <dd class="col-sm-9"></dd>
+    <dt class="col-sm-4 ml-4">The March Hare</dt>
+    <dd class="col-sm-8 ml-4"><span class="sampleText"></span></dd>
+    <dt class="col-sm-4 ml-4">Mad Hatter</dt>
+    <dd class="col-sm-8 ml-4 sampleText"><span class="sampleText"></span></dd>
+  </dl>
+  <h6 class="bg-dark text-white-50 p-2 mt-5">List group with javascript behaviors</h6>
+  <div class="row mt-3">
+    <div class="col-4">
+      <div class="list-group mb-5" id="list-tab" role="tablist">
+        <a href="#list-chap1" id="list-chap1-list" data-toggle="list" class="list-group-item list-group-item-action active">Chapter 1</a>
+        <a href="#list-chap2" id="list-chap2-list" data-toggle="list" class="list-group-item list-group-item-action">Chapter 2</a>
+        <a href="#list-chap3" id="list-chap3-list" data-toggle="list" class="list-group-item list-group-item-action">Chapter 3</a>
+      </div>
+    </div> <!-- end col 4 -->
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div role="tabpanel" id="list-chap1" class="tab-pane fade show active">
+          <h3>First Chapter</h3>
+          <p><span class="sampleText"></span></p>
+        </div>
+        <div role="tabpanel" id="list-chap2" class="tab-pane fade">
+          <h3>Second Chapter</h3>
+          <p><span class="sampleText"></span></p>
+        </div>
+        <div role="tabpanel" id="list-chap3" class="tab-pane fade">
+          <h3>Third Chapter</h3>
+          <p><span class="sampleText"></span></p>
+        </div>
+      </div> <!-- end tab content -->
+    </div> <!-- end col 8 -->
+  </div> <!-- end row -->
+</div>
+
+<div class="mt-5" id="nav-placeholder"></div>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+<script>
+    $('#nav-placeholder').load('nav.html');
+
+    const lorem =  'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    const samples = Array.from(document.getElementsByClassName('sampleText'));
+    samples.forEach(x => x.innerText = lorem);
+</script>
+
+</html>

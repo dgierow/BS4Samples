@@ -9,19 +9,23 @@
       width: 100%;
     }
     .myWidthXL{
-      width: 1200px;
+      /*width: 1200px;*/
+      width: 100%;
       background: yellow;
     }
     .myWidthLG{
-      width: 992px;
+      /*width: 992px;*/
+      width: 1199px;
       background: lightgreen;
     }
     .myWidthMD{
-      width: 768px;
+      /*width: 768px;*/
+      width: 991px;
       background: lightblue;
     }
     .myWidthSM{
-      width: 576px;
+      /*width: 576px;*/
+      width: 767px;
       background: cyan;
     }
     .myWidthXM{
@@ -36,16 +40,22 @@
   </style>
 </head>
 <body>
-  <div class="myWidthXL my-2 col">min-width: 1200px - XL</div>
-  <div class="myWidthLG my-2 col">min-width: 992px - LG</div>
-  <div class="myWidthMD my-2 col">min-width: 768px - MD</div>
-  <div class="myWidthSM my-2 col">min-width: 576px - SM</div>
-  <div class="myWidthXM text-light my-2 col">min-width: 575.98px - xtra-SM</div>
+  <div class="myWidthXL my-2 col">XL - 1200px and above</div>
+  <div class="myWidthLG my-2 col">LG - 992px to 1200px</div>
+  <div class="myWidthMD my-2 col">MD - 768px to 992px</div>
+  <div class="myWidthSM my-2 col">SM - 576px to 768px</div>
+  <div class="myWidthXM text-light my-2 col">xtra-SM - 575.98px and below</div>
   <hr>
   <div class="myBreaks">
-    <h1 class="text-center display-3 mb-2 px-3 pt-0 pb-3">Breakpoints in Bootstrap 4</h1>
+    <h1 class="text-center display-4 mb-2 px-3 pt-0 pb-3">Breakpoints in Bootstrap 4</h1>
   </div>
   <hr>
+  <div class="container-fluid">
+    <p class="float-sm-right float-lg-left clearfix">
+      <strong>Float right at SM and MD size only</strong><br>consectetur adipisicing elit.
+      <br>Accusamus aliquam amet architecto<br>excepturi expedita inventore
+    </p>
+  </div>
   <br>
   <div id="nav-placeholder"></div>
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>

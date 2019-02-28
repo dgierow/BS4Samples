@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Forms</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<!--<h3 class="display-4 text-muted p-1 m-0">Contact&nbsp;Info</h3>-->
+<div class="container">
+  <h4 class="text-muted p-0 mb-2">Contact Form</h4>
+  <div class="row">
+    <div class="col-sm-8">
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input class="form-control" type="text" id="name" placeholder="Enter your name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input class="form-control" type="email" id="email" placeholder="Enter your email address">
+          <small class="form-text text-muted">your email address will not be shared with anyone</small>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" type="password" id="password" placeholder="Enter your password" readonly>
+        </div>
+
+        <div class="form-group">
+          <label for="species">Species</label>
+          <select class="form-control" id="species">
+            <option>Human</option>
+            <option>Non-Human</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="message">Message for the Queen of Hearts</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+
+        <div>
+          <label for="file">Upload a file</label>
+          <input class="form-control-file btn btn-light" type="file" id="file">
+          <small class="form-text text-muted" id="helpFile">Maximum size is three yottabytes</small>
+        </div>
+
+        <div class="mt-5">
+          <legend>Question</legend>
+          <fieldset class="form-group">
+            <h5 class="text-muted">Why is a raven like a writing desk?</h5>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="answers" value="option1">
+                I haven&rsquo;t the slightest idea
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="answers" value="option2">
+                I give up
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="answers" value="option3" checked>
+                Because it can produce a few notes, tho they are very flat
+              </label>
+            </div>
+          </fieldset>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              I dislike the book <em>Alice&rsquo;s Adventure in Wonderland</em> very much.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-success mt-3">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="col-sm-4">
+      <img src="img/img13.jpg" alt="leaf" class="img-fluid">
+    </div>
+  </div> <!-- end row -->
+
+  <div class="mt-5">
+    <h4 class="text-muted p-1 m-0">Inline Form</h4>
+    <form class="form-inline">
+      <input type="text" class="form-control mr-2" id="name2" placeholder="your catz name">
+      <input type="text" class="form-control mr-2" id="password2" placeholder="password">
+      <label>
+        <input type="checkbox" class="form-check-input mr-2">
+        &ldquo;We&rsquo;re all mad here.&rdquo;
+      </label>
+      <button class="btn btn-warning ml-2" type="submit">Send</button>
+    </form>
+  </div>
+  <div class="mt-5">
+    <h4 class="text-muted p-1 m-0">Multi-Column Forms</h4>
+    <div class="row">
+      <div class="col-sm-8">
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Mad">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Hatter">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-sm-4">
+        <img src="img/img13.jpg" alt="leaf" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="mt-5">
+    <h4 class="text-muted p-0 mb-2">Validation</h4>
+    <div class="row">
+      <div class="col-sm-8">
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control is-valid" type="text" id="name3" placeholder="Enter your name">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input class="form-control is-invalid" type="password" id="password3" placeholder="Enter your password" readonly>
+            <div class="invalid-feedback">Password is not valid</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mt-5">
+    <h4 class="text-muted p-0 mb-2">Input groups and add ons</h4>
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button">Go!</button>
+          </div>
+          <input class="form-control" type="text" placeholder="Enter stuff here" aria-label="Enter stuff here" aria-describedby="prepend">
+        </div>
+
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <button class="btn btn-success" type="button">Go!</button>
+            <button class="btn btn-info" type="button">Now!</button>
+          </div>
+          <input class="form-control" type="text" placeholder="Enter stuff here" aria-label="Enter stuff here" aria-describedby="prepend">
+        </div>
+
+        <div class="input-group mb-3">
+          <input class="form-control" type="text" placeholder="Enter stuff here" aria-label="Enter stuff here" aria-describedby="append">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="button">Go!</button>
+          </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input class="form-control" type="text" placeholder="Enter stuff here" aria-label="Enter stuff here" aria-describedby="append">
+          <div class="input-group-append">
+            <button class="btn btn-success" type="button">Go!</button>
+            <button class="btn btn-info" type="button">Now!</button>
+          </div>
+        </div>
+
+        <div class="input-group my-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Go!</span>
+          </div>
+          <input class="form-control" type="text" placeholder="Enter stuff here" aria-label="Enter stuff here" aria-describedby="prepend">
+          <div class="input-group-append">
+            <span class="input-group-text">Now!</span>
+          </div>
+        </div>
+
+
+        <div class="input-group input-group-sm mt-5">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="default-size-sm">Default</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="default-size-sm">
+        </div>
+        <div class="input-group mt-2">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="default-size">Default</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="default-size">
+        </div>
+        <div class="input-group mt-2 input-group-lg">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="default-size-lg">Default</span>
+          </div>
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="default-size-lg">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mt-5">
+    <h4 class="text-muted p-0 mb-2">Checkboxes, radio buttons and select menus</h4>
+    <div class="row">
+      <div class="col-sm-8">
+
+        <div class="input-group my-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="checkbox" aria-label="checkbox">
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="input">
+        </div>
+
+
+        <div class="input-group my-3">
+          <div class="input-group-prepend">
+            <div class="input-group-text">
+              <input type="radio" aria-label="radio">
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="input">
+        </div>
+
+
+        <div class="form-group">
+          <label for="form-select">Character Select</label>
+          <select class="form-control" id="form-select">
+            <option>Alice</option>
+            <option>The White Rabbit</option>
+            <option>Mad Hatter</option>
+            <option>Dormouse</option>
+            <option>March Hare</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="form-select">Character Select</label>
+          <select multiple class="form-control" id="form-select">
+            <option>Alice</option>
+            <option>The White Rabbit</option>
+            <option>Mad Hatter</option>
+            <option>Dormouse</option>
+            <option>March Hare</option>
+          </select>
+        </div>
+
+
+        <div class="input-group mb-5">
+          <div class="input-group-prepend">
+            <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Characters</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Alice</a>
+              <a class="dropdown-item" href="#">The White Rabbit</a>
+              <div role="separator" class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Mad Hatter</a>
+              <a class="dropdown-item" href="#">Dormouse</a>
+              <a class="dropdown-item" href="#">The March Hare</a>
+            </div>
+          </div>
+          <input type="text" class="form-control" aria-label="dropdown button">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5" id="nav-placeholder"></div>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+</body>
+
+<script>
+    $('#nav-placeholder').load('nav.html');
+
+    const lorem =  'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+    const samples = Array.from(document.getElementsByClassName('sampleText'));
+    samples.forEach(x => x.innerText = lorem);
+</script>
+
+</html>
