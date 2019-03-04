@@ -58,10 +58,10 @@
     x collapse
     x accordian
 8. Javascript and Bootstrap
-    - tooltips
-    - modal
-    - popovers
-    - scrollspy
+    x tooltips
+    x modal
+    x popovers
+    x scrollspy
     - events
 
 Misc:
@@ -72,3 +72,6 @@ Misc:
     - move lorem text replace code to a bs4.js file and include
     - fix navbar for mobile sizes. it's much too small.
     - review size of controls on mobile, things may be too small.
+    - make carousel images the same size
+    - use min js files
+    - clean up text in margins
