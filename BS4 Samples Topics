@@ -64,5 +64,11 @@
     - scrollspy
     - events
 
-
-****** add tables content to grid card
+Misc:
+    - put bootstrap version (4.3.1) in footer
+    - add tables content to grid card
+    - create a card for Typography. combine with colors?
+    - general cleanup of all files
+    - move lorem text replace code to a bs4.js file and include
+    - fix navbar for mobile sizes. it's much too small.
+    - review size of controls on mobile, things may be too small.
