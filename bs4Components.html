@@ -170,20 +170,15 @@
 </div>
 
 <div id="nav-placeholder"></div>
+<script type="text/javascript" src="js/bs4.js"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 <script>
     $('#nav-placeholder').load('nav.html');
-
-    const lorem = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias eum possimus quibusdam quisquam. Cupiditate dolorem doloremque expedita harum itaque maxime modi numquam optio quae quidem repellendus totam, ullam unde.';
-    const samples = Array.from(document.getElementsByClassName('sampleText'));
-    samples.forEach(x => x.innerText = lorem);
-
-    const loremShort = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, atque consectetur consequatur dolore ';
-    const samplesShort = Array.from(document.getElementsByClassName('sampleTextShort'));
-    samplesShort.forEach(x => x.innerText = loremShort);
+    replaceWithLorem('sampleText');
+    replaceWithLorem('sampleTextShort', true);
 </script>
 
 </html>

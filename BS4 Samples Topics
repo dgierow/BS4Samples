@@ -73,5 +73,7 @@ Misc:
     - fix navbar for mobile sizes. it's much too small.
     - review size of controls on mobile, things may be too small.
     - make carousel images the same size
-    - use min js files
+    x use min js files
+    x use min css files
+    x add favicon
     - clean up text in margins page

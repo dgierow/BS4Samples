@@ -132,16 +132,14 @@
 </div>
 
 <div id="nav-placeholder"></div>
+<script type="text/javascript" src="js/bs4.js"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 
 <script>
     $('#nav-placeholder').load('nav.html');
-
-    const lorem =  'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
-    const samples = Array.from(document.getElementsByClassName('sampleText'));
-    samples.forEach(x => x.innerText = lorem);
+    replaceWithLorem('sampleText');
 </script>
 
 </html>
