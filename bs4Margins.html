@@ -22,7 +22,6 @@
 </head>
 <body>
 
-
 <section class="row sm">
   <div class="col bg-transparent">1</div>
   <div class="col bg-info">2</div>
@@ -31,7 +30,7 @@
 <section class="row sm">
   <div class="col bg-info">4</div>
   <div class="col bg-primary text-light text-justify">
-    Lorem ipsum
+    <span class="sampleText"></span>
   </div>
   <div class="col bg-info">6</div>
 </section>
@@ -42,7 +41,6 @@
 </section>
 <hr>
 
-
 <section class="row">
   <div class="col bg-transparent">1</div>
   <div class="col bg-info">2</div>
@@ -51,8 +49,7 @@
 <section class="row">
   <div class="col bg-info">4</div>
     <div class="col bg-primary text-light text-justify mt-4">
-      (mt-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
-      Lorem
+      (mt-4) <span class="sampleText"></span>
     </div>
   <div class="col bg-info">6</div>
 </section>
@@ -63,7 +60,6 @@
 </section>
 <hr>
 
-
 <section class="row">
   <div class="col bg-transparent">1</div>
   <div class="col bg-info">2</div>
@@ -72,8 +68,7 @@
 <section class="row">
   <div class="col bg-info">4</div>
   <div class="col bg-primary text-light text-justify mb-4">
-    (mb-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
-    Lorem
+    (mb-4) <span class="sampleText"></span>
   </div>
   <div class="col bg-info">6</div>
 </section>
@@ -82,7 +77,6 @@
   <div class="col bg-info">8</div>
   <div class="col bg-transparent">9</div>
 </section>
-
 
 <hr>
 <section class="row">
@@ -93,8 +87,7 @@
 <section class="row">
   <div class="col bg-info">4</div>
   <div class="col bg-primary text-light text-justify m-4">
-    (m-4) Lorem ipsum dolor sit amet
-    Lorem
+    (m-4) <span class="sampleText"></span>
   </div>
   <div class="col bg-info">6</div>
 </section>
@@ -103,7 +96,6 @@
   <div class="col bg-info">8</div>
   <div class="col bg-transparent">9</div>
 </section>
-
 
 <hr>
 <section class="row">
@@ -114,8 +106,7 @@
 <section class="row">
   <div class="col bg-info">4</div>
   <div class="col bg-primary text-light text-justify pt-4">
-    (pt-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
-    Lorem
+    (pt-4) <span class="sampleText"></span>
   </div>
   <div class="col bg-info">6</div>
 </section>
@@ -124,7 +115,6 @@
   <div class="col bg-info">8</div>
   <div class="col bg-transparent">9</div>
 </section>
-
 
 <hr>
 <section class="row">
@@ -135,8 +125,7 @@
 <section class="row">
   <div class="col bg-info">4</div>
   <div class="col bg-primary text-light text-justify pb-4">
-    (pb-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
-    Lorem
+    (pb-4) <span class="sampleText"></span>
   </div>
   <div class="col bg-info">6</div>
 </section>
@@ -155,8 +144,7 @@
 <section class="row">
   <div class="col bg-info">4</div>
   <div class="col bg-primary text-light text-justify p-4">
-    (p-4) Lorem ipsum dolor sit amet, consectetur fds klafdsa fdslakfjd f dkfj klds;af dl fdsa Lorem ipsum dolor sit amet, consectetur fdsa
-    Lorem
+    (p-4) <span class="sampleText"></span>
   </div>
   <div class="col bg-info">6</div>
 </section>
@@ -178,33 +166,52 @@
 <hr>
 
 <div class="m-5">
-  Padding and border sizes are a multiple of the base SASS map variable $spacer by:
+  <p>Padding and border sizes are a multiple of the base SASS map variable $spacer by:</p>
+  <table class="table table-light table-bordered w-auto">
+    <caption><small>The default is the same as the default font.</small></caption>
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">0</th>
+        <th scope="col">1</th>
+        <th scope="col">2</th>
+        <th scope="col">3</th>
+        <th scope="col">4</th>
+        <th scope="col">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr scope="row">
+        <td>0</td>
+        <td>0.25</td>
+        <td>0.5</td>
+        <td>1</td>
+        <td>1.5</td>
+        <td>3</td>
+      </tr>
+    </tbody>
+  </table>
 
-  0   1   2   3   4   5
-
-  0   .25 .5  1   1.5 3
-
-  The default is the same as the default font.
-
-
-  abbreviations:
-
-  t       margin-top or padding-top
-  b       margin-bottom or padding-bottom
-  l       margin-left or padding-left
-  r       margin-right or padding-right
-  x       left and right (x-axis)
-  y       top and bottom (y-axis)
-  blank   all around
+  <p>Abbreviations:</p>
+  <dl class="row">
+    <dt class="col-sm-2">t</dt><dd class="col-sm-10">margin-top or padding-top</dd>
+    <dt class="col-sm-2">b</dt><dd class="col-sm-10">margin-bottom or padding-bottom</dd>
+    <dt class="col-sm-2">l</dt><dd class="col-sm-10">margin-left or padding-left</dd>
+    <dt class="col-sm-2">r</dt><dd class="col-sm-10">margin-right or padding-right</dd>
+    <dt class="col-sm-2">x</dt><dd class="col-sm-10">left and right (x-axis)</dd>
+    <dt class="col-sm-2">y</dt><dd class="col-sm-10">top and bottom (y-axis)</dd>
+    <dt class="col-sm-2">blank</dt><dd class="col-sm-10">all around</dd>
+  </dl>
 </div>
 
 <div id="nav-placeholder"></div>
+<script type="text/javascript" src="js/bs4.js"></script>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 <script>
     $('#nav-placeholder').load('nav.html');
+    replaceWithLorem('span.sampleText', loremLengths.TINY);
 </script>
 
 </html>
