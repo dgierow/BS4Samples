@@ -5,6 +5,9 @@
   <title>Bootstrap Javascript</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/fa/solid.css">
+  <link rel="stylesheet" type="text/css" href="css/fa/fontawesome.css">
+  <link rel="stylesheet" href="css/bs4.css">
   <link rel="shortcut icon" href="img/favicon.png">
   <link rel="apple-touch-icon" href="img/touch-icon.png">
   <style>
@@ -103,8 +106,8 @@
                 data-content="ah that's the great puzzle" data-animation="true">Who am I? (with data-animation)
         </button>
       </li>
-      <li class="mb-2">
-        <div class="bg-danger p-2 mb-2 text-light w-50">
+      <li class="mb-2 mt-4">
+        <div class="bg-danger p-2 mb-2 text-light w-auto">
           Per the documentation on dismissable popovers: "For proper cross-browser and cross-platform behavior, you must
           use the &lt;a&gt; tag, NOT the &lt;button&gt; tag, and you must include a tabindex attribute.
         </div>
@@ -162,7 +165,7 @@
 </body>
 
 <script>
-    $('#nav-placeholder').load('nav.html');
+    $('#nav-placeholder').load('nav2.html');
 
     $(function(){
         $('[data-toggle="tooltip"]').tooltip();
@@ -172,7 +175,7 @@
         $('[data-toggle="popover"]').popover();
     });
 
-    replaceWithLorem('sampleText');
+    replaceWithLorem('span.sampleText');
 </script>
 
 <script>

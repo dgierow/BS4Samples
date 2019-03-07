@@ -69,11 +69,14 @@ Misc:
     - add tables content to grid card
     - create a card for Typography. combine with colors?
     - general cleanup of all files
-    - move lorem text replace code to a bs4.js file and include
-    - fix navbar for mobile sizes. it's much too small.
-    - review size of controls on mobile, things may be too small.
+    x move lorem text replace code to a bs4.js file and include
+    o fix navbar for mobile sizes. it's much too small.
+    o review size of controls on mobile, things may be too small.
     - make carousel images the same size
     x use min js files
     x use min css files
     x add favicon
-    - clean up text in margins page
+    o clean up text in margins page
+    - review using querySelector and querySelectorAll (.classname and #id or just tagname querySelectorAll('li') )
+    - live nodelists will be updated when the dom is updated, static will not. but updates to a static nodelist are reflected in the dom.
+    o scroll spy on javascript page displays poorly on mobile size
